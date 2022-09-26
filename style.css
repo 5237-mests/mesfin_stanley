@@ -1,17 +1,15 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing:border-box;
-  position: absolute;
-  display: inline;
-  text-align: center;
+
 }
 
 body {
-  background-color: #eeeeee;
-  font-family: 'Times New Roman', Times,;
+  /* background-color: #eeeeee; */
+  font-family: 'Times New Roman', Times, ;
   border-top: 10em;
   border-bottom: 40em;
+  /* background-color: red; */
 }
 
 #header {
@@ -39,21 +37,49 @@ a {
 #header-img {
   width: 330px;
 }
-.container{
-  margin-top: 100px;
+
+.container {
+  margin-top: 0px;
 }
 
-# hero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 200px;
-    margin-top: 50px;
+#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  margin-top: 0px;
 }
-section { 
+
+section {
   display: block;
+}
+
+.btn {
+  background-color: yellow;
+  padding: 10px;
+  border: none;
+  font-weight: bold;
+}
+
+#email {
+  width: 300px;
+  padding: 7px;
+  margin-top: 20px;
+}
+
+.grid {
+  margin-left: 200px;
+  display: flex;
+}
+
+.desc {
+  margin-left: 40px;
+}
+
+.icon {
+  /* width: 60px; */
 }
 
 .footer {
