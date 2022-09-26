@@ -1,10 +1,17 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing:border-box;
+  position: absolute;
+  display: inline;
+  text-align: center;
 }
 
 body {
   background-color: #eeeeee;
+  font-family: 'Times New Roman', Times,;
+  border-top: 10em;
+  border-bottom: 40em;
 }
 
 #header {
@@ -34,4 +41,21 @@ a {
 }
 .container{
   margin-top: 100px;
+}
+
+# hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 50px;
+}
+section { 
+  display: block;
+}
+
+.footer {
+  display: inline;
 }
