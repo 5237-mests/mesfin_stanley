@@ -85,3 +85,10 @@ section {
 .footer {
   display: inline;
 }
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+
+
